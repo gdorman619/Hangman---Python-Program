@@ -89,6 +89,8 @@ while number_of_wrong_attempts_left !=0:
 	
 	else:
 		
+		character_guesses.append(char_guessed)
+
 		number_of_wrong_attempts_left = number_of_wrong_attempts_left - 1
 
 		if number_of_wrong_attempts_left == 0:
